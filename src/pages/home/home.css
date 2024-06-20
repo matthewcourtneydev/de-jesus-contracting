@@ -1,0 +1,56 @@
+header {
+  min-height: 400px;
+  min-width: 100%;
+  color: white;
+}
+
+
+.left {
+  background-image: url(../../imgs/header-image.jpeg);
+  background-size: cover;
+  background-repeat: none;
+  min-height: 400px;
+}
+
+.right {
+  background-color: rgb(26, 41, 79);
+  min-height: 400px;
+  font-family: "Oswald", sans-serif;
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+}
+
+.whole-dark {
+    background-color: rgb(26, 41, 79);
+    color: white;
+}
+.whole-lite {
+    background-color: rgb(255, 255, 255);
+}
+
+.whole {
+    padding: 5svw
+}
+
+.carousel-img {
+    min-height: 300px;
+    background-color: purple;
+}
+
+.one {
+    background-color: black;
+}
+
+.two {
+    background-color: cyan;
+}
+
+.three {
+    background-color: bisque;
+}
+
+.image {
+    min-height: 200px;
+}
