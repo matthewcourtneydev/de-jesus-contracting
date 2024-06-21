@@ -6,3 +6,16 @@ footer {
 .logo {
     background-image: url("../../imgs/logo.png");
 }
+
+@media (min-width: 1024px) {
+    .lower {
+        display: fixed !important;
+        bottom: 0;
+        left: 0 !important;
+        min-width: 100svw;
+        max-width: 100svw;
+        margin-left: -7rem;
+    }
+    
+
+}

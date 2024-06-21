@@ -9,17 +9,26 @@ header {
   background-image: url(../../imgs/header-image.jpeg);
   background-size: cover;
   background-repeat: none;
-  min-height: 400px;
+  min-height: 450px;
 }
 
 .right {
   background-color: rgb(26, 41, 79);
-  min-height: 400px;
+  min-height: 450px;
   font-family: "Oswald", sans-serif;
 }
 
 h2 {
     font-family: "Oswald", sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+    .header-text {
+        font-size: .5rem;
+    }
+}
+.header-text {
+    font-size: 1rem;
 }
 
 .whole-dark {
@@ -35,22 +44,53 @@ h2 {
 }
 
 .carousel-img {
-    min-height: 300px;
+    min-height: 350px;
     background-color: purple;
+    background-position: center;
 }
 
-.one {
-    background-color: black;
+.service-circle {
+    min-height: 80px;
+    min-width: 80px;
+    max-height: 80px;
+    max-width: 80px;
 }
 
-.two {
-    background-color: cyan;
+.exterior {
+    background-image: url("../../imgs/exterior1.jpeg");
+    background-size: cover;
+    background-repeat: none;
 }
 
-.three {
-    background-color: bisque;
+.interior {
+    background-image: url("../../imgs/interior1.webp");
+    background-size: cover;
+    background-repeat: none;
 }
 
-.image {
+.patios {
+    background-image: url("../../imgs/deck1.webp");
+    background-size: cover;
+    background-repeat: none;
+}
+
+.backyard {
+    background-image: url("../../imgs/hardscape1.jpeg");
+    background-size: cover;
+    background-repeat: none;
+}
+
+.remodel-img {
+    min-width: 100%;
+    max-width: 100%;
     min-height: 200px;
+    background-image: url("../../imgs/interior2.avif");
+    background-position: center;
+    background-size: cover;
+    z-index: 10;
+    position: relative;
+}
+
+.img {
+    z-index: 0;
 }

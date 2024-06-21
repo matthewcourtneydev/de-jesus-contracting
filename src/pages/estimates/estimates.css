@@ -1,0 +1,11 @@
+.med-header {
+    margin-left: -5rem;
+    background-color: rgb(26, 41, 79);
+}
+
+.contact-image {
+    background-image: url("../../imgs/interior-contact.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}

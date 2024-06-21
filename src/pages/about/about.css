@@ -1,0 +1,52 @@
+.top-section-img {
+    background-image: url("../../imgs/interior.jpeg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+
+.top-section-img-2 {
+    background-image: url("../../imgs/house.jpeg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center; 
+}
+
+.top-section, .portfolio-section, .med-header-about {
+    background-color: rgb(26, 41, 79);
+}
+
+.second-section-img {
+    background-image: url("../../imgs/bathroom.webp");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center; 
+}
+
+.card-img-1 {
+    background-image: url("../../imgs/bathroom2.jpeg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;   
+}
+
+.card-img-2 {
+    background-image: url("../../imgs/kitchen.jpeg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;   
+}
+
+.card-img-3 {
+    background-image: url("../../imgs/deck2.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;   
+}
+
+.card-img-4 {
+    background-image: url("../../imgs/bedroom.jpeg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;   
+}
