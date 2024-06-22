@@ -15,11 +15,7 @@ const About = () => {
         </h2>
         <div className="top-section-img sm:mb-20 sm:mt-12 w-full h-60 sm:order-3 bg-slate-100"></div>
         <p className="pt-5 sm:w-2/6 sm:pr-8 sm:text-xxs sm:pt-0 sm:order-1">
-          Porem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-          praesentium consectetur illum accusantium officia temporibus, dicta,
-          tenetur reprehenderit omnis mollitia accusamus at placeat maiores
-          excepturi eveniet quod corporis nisi repudiandae eius repellendus
-          eaque, enim esse? Obcaecati cupiditate fuga itaque accusamus.
+        De Jesus Contracting offers a wide array of construction and renovation services in Rock Hill, SC. From roofing and siding to painting, flooring, hardscaping, and more, we specialize in both residential and commercial projects. With a focus on quality craftsmanship and customer satisfaction, we aim to enhance the functionality, beauty, and value of every property we work on, delivering exceptional results that exceed expectations.
         </p>
         <button className="sm:order-2 sm:w-1/6 sm:text-xxs get-started pt-2 pb-2 pl-5 pr-5 text-white sm:mt-0 sm:max-h-9 mt-5 border-white border">
           GET STARTED
@@ -27,12 +23,7 @@ const About = () => {
         <p className="header-text sm:order-4 mt-10 w-full pt-5 sm:w-1/2 sm:text-xs md:pt-5">
           / Who We Are
           <p className="pt-5 w-full sm:w-3/4 sm:text-xxs sm:pl-8 sm:pr-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis vel
-            voluptas sapiente itaque pariatur aperiam ullam voluptatibus dolorem
-            assumenda commodi maiores, veritatis facilis quas qui delectus?
-            Optio quaerat mollitia vero nulla ex vitae, voluptate, harum
-            provident alias debitis accusantium, neque fugiat autem similique
-            rem quas!
+          De Jesus Contracting emerged as a local Rock Hill, SC contracting company in response to the aftermath of devastating hail storms in 2024. The community faced a shortage of available, quality contractors who weren't booked months in advance. Out of necessity, De Jesus Contracting was founded to fill this gap and deliver the superior quality and service that Rock Hill deserves. Committed to meeting the area's needs promptly and effectively, our team continues to prioritize excellence in every project, ensuring homes and businesses receive the care and attention they deserve.
           </p>
         </p>
         <div className="top-section-img-2 sm:w-1/2 sm:order-5 w-full h-60 mt-5 bg-slate-100"></div>

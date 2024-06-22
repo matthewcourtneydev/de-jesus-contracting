@@ -1,0 +1,18 @@
+
+.top-section-img-by {
+    background-image: url("../../imgs/backyard-page-1.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+
+.remodel-img-by {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+    background-image: url("../../imgs/backyard-page-2.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}

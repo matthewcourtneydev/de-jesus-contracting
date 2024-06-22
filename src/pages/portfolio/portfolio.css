@@ -1,0 +1,183 @@
+.filter-items, .projects {
+    background-color: rgb(26, 41, 79);
+}
+
+.interior-one {
+    background-image: url("../../imgs/interior-filter-1.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.interior-two {
+    background-image: url("../../imgs/interior-filter-2.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.interior-three {
+    background-image: url("../../imgs/interior-filter-3.webp");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.interior-four {
+    background-image: url("../../imgs/interior-filter-4.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.interior-five {
+    background-image: url("../../imgs/interior-filter-5.webp");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.exterior-one {
+    background-image: url("../../imgs/exterior-filter-1.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.exterior-two {
+    background-image: url("../../imgs/exterior-filter-2.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.exterior-three {
+    background-image: url("../../imgs/exterior-filter-4.webp");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.exterior-four {
+    background-image: url("../../imgs/exterior-filter-3.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.exterior-five {
+    background-image: url("../../imgs/exterior-filter-5.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+
+
+.patio-one {
+    background-image: url("../../imgs/patio-filter-1.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.patio-two {
+    background-image: url("../../imgs/patio-filter-2.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.patio-three {
+    background-image: url("../../imgs/patio-filter-4.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.patio-four {
+    background-image: url("../../imgs/patio-filter-3.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.patio-five {
+    background-image: url("../../imgs/patio-filter-5.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+
+
+.backyard-one {
+    background-image: url("../../imgs/backyard-filter-1.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.backyard-two {
+    background-image: url("../../imgs/backyard-filter-2.webp");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.backyard-three {
+    background-image: url("../../imgs/backyard-filter-4.webp");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.backyard-four {
+    background-image: url("../../imgs/backyard-filter-3.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.backyard-five {
+    background-image: url("../../imgs/backyard-filter-5.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+
+.fencing-one {
+    background-image: url("../../imgs/fencing-filter-1.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.fencing-two {
+    background-image: url("../../imgs/fencing-filter-2.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.fencing-three {
+    background-image: url("../../imgs/fencing-filter-4.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.fencing-four {
+    background-image: url("../../imgs/fencing-filter-3.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.fencing-five {
+    background-image: url("../../imgs/fencing-filter-5.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}

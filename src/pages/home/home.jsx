@@ -2,35 +2,30 @@ import { React, useState } from "react";
 import "./home.css";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
-const Home = () => {
+const Home = (props) => {
   const [carouselIteration, updateCarousel] = useState(0);
   const carouselClasses = [
     {
       class: "exterior",
       content:
-        "De Jesus Contracting enhances your home's exterior with expert services in windows, roofing, siding, and framing. Their skilled team uses high-quality materials for durable, attractive installations that boost curb appeal and structural integrity. Committed to customer satisfaction, they offer tailored solutions to meet your specific needs and budget, making them a reliable partner for all exterior improvement projects.",
+        "Quality exterior renovations not only enhance a home's value but also increase happiness by improving curb appeal, structural integrity, and energy efficiency. Professional craftsmanship and high-quality materials in projects like roofing, siding, and window replacements create a more comfortable and enjoyable living environment while boosting market appeal and property value. Whether through updating the facade or creating inviting outdoor spaces with new decks and patios, these renovations bring lasting satisfaction to homeowners.",
     },
     {
       class: "interior",
       content:
-        "De Jesus Contracting excels in interior projects, offering expert painting, drywall, and flooring services. Their skilled team ensures smooth painting, seamless drywall installation and repair, and a variety of stylish, durable flooring options. Committed to excellence and customer satisfaction, they provide customized solutions that enhance the beauty and functionality of your home.",
+        "As a local contractor, we offer the assurance of working with a neighbor who values community. At De Jesus Contracting, we approach every job with professionalism and attention to detail, ensuring your comfort and security throughout. With our local expertise, we understand your specific needs and deliver high-quality solutions, from roofing and siding to windows and beyond, ensuring the job is done right the first time.",
     },
     {
       class: "patios",
       content:
-        "De Jesus Contracting enhances outdoor living spaces with expertly designed patios, porches, and decks. Their skilled team constructs functional and stylish areas using high-quality materials, ensuring durability and beauty. Committed to customer satisfaction, they offer tailored solutions to meet your specific needs, making your outdoor space a seamless extension of your home.",
-    },
-    {
-      class: "backyard",
-      content:
-        "De Jesus Contracting enhances backyards with expert landscaping, hardscaping, concrete, and irrigation services. Their skilled team designs functional, beautiful landscapes with durable patios, walkways, and retaining walls, alongside precise concrete work. Efficient irrigation solutions ensure your landscape stays lush. Committed to quality, they offer customized solutions to meet your vision and needs.",
+        "As a small company, we are committed to treating your projects with the same care and attention as if they were our own. When you contact us with questions about a job or a quote, you won't encounter automated systems or robots—instead, you'll speak directly with Chris, the owner. We prioritize direct communication and personalized service to ensure your needs are understood and met effectively.",
     }
   ];
 
   function handleCarousel(action) {
-    if (carouselIteration < 3 && action === "INC") {
+    if (carouselIteration < 2 && action === "INC") {
       updateCarousel((prev) => prev + 1);
-    } else if (carouselIteration >= 0 && action === "DEC") {
+    } else if (carouselIteration > 0 && action === "DEC") {
       updateCarousel((prev) => prev - 1);
     }
   }
@@ -73,7 +68,7 @@ const Home = () => {
             <p className="sm:w-3/4">{carouselClasses[carouselIteration].content}</p>
             <div className="carousel-nav flex w-1/2 sm:w-1/3 sm:mt-8 mt-5 justify-between">
               <FaArrowLeftLong onClick={() => handleCarousel("DEC")} />
-              <p className="carousel-text">{carouselIteration + 1} / 4</p>
+              <p className="carousel-text">{carouselIteration + 1} / 3</p>
               <FaArrowRightLong onClick={() => handleCarousel("INC")} />
             </div>
           </div>
@@ -94,12 +89,9 @@ const Home = () => {
           </div>
           <div className="p-text sm:text-xxs mb-5 sm:max-w-64 sm:ml-32">
             <p>
-            Ready to start your next home improvement project? Contact De Jesus
-          Contracting today to schedule a consultation. Our team is eager to
-          bring your vision to life with our expert craftsmanship and
-          personalized service. Let's create something amazing together!
+            We at De Jesus Contracting are thrilled to partner with you in bringing your project to life and maximizing your home's potential. Whether you're envisioning a complete renovation or targeted improvements, our team is dedicated to delivering exceptional craftsmanship and personalized service. With our expertise in both interior and exterior renovations, we ensure every detail is meticulously handled to enhance the functionality, beauty, and value of your home. From concept to completion, we're committed to exceeding your expectations and creating spaces that reflect your unique style and aspirations. Let's embark on this journey together to transform your house into the home you've always dreamed of.
             </p>
-            <button className="get-started pt-2 pb-2 pl-5 pr-5 mt-5 border-white border">
+            <button className="get-started pt-2 pb-2 pl-5 pr-5 mt-5 border-white border" onClick={() => props.navigateTo("/estimates")}>
             GET STARTED
           </button>
           </div>

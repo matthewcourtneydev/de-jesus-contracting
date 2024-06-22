@@ -8,6 +8,12 @@ import Footer from "./components/footer/footer";
 import Estimates from "./pages/estimates/estimates";
 import About from "./pages/about/about";
 import NavMenu from "./components/nav-menu/nav-menu";
+import Interior from "./pages/interior/interior";
+import Exterior from "./pages/exterior/exterior";
+import Fencing from "./pages/fencing/fencing";
+import Backyard from "./pages/backyard/backyard";
+import Patios from "./pages/patios/patios";
+import Portfolio from "./pages/portfolio/portfolio";
 
 function App() {
   const navigate = useNavigate();
@@ -16,6 +22,7 @@ function App() {
   function navigateTo(route) {
     setCurrentPage((prev) => route);
     navigate(route);
+
   }
   return (
     <div className="App">
@@ -25,6 +32,12 @@ function App() {
         <Route path={"/"} element={<Home navigateTo={navigateTo} />} />
         <Route path={"/estimates"} element={<Estimates />} />
         <Route path={"/about"} element={<About />} />
+        <Route path={"/interior"} element={<Interior navigateTo={navigateTo} />} />
+        <Route path={"/exterior"} element={<Exterior navigateTo={navigateTo} />} />
+        <Route path={"/patios"} element={<Patios navigateTo={navigateTo} />} />
+        <Route path={"/backyard"} element={<Backyard navigateTo={navigateTo} />} />
+        <Route path={"/fencing"} element={<Fencing navigateTo={navigateTo} />} />
+        <Route path={"/portfolio"} element={<Portfolio navigateTo={navigateTo}/>} />
       </Routes>
       <Footer navigateTo={navigateTo}/>
       <NavMenu currentPage={currentPage} isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} navigateTo={navigateTo} />

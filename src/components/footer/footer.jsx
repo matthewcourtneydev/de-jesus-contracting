@@ -7,7 +7,7 @@ import { IoMdMail } from "react-icons/io";
 import { RiInstagramFill } from "react-icons/ri";
 import emailjs from "@emailjs/browser";
 
-const Footer = () => {
+const Footer = (props) => {
   const form = useRef();
   const [isEmailSent, toggleEmail] = useState(false);
 
@@ -120,19 +120,19 @@ const Footer = () => {
         <section className="footer-section w-100 md:w-1/5 h-full mb-10">
           <h3 className="font-bold text-lg sm:text-sm mb-8">SERVICES</h3>
           <div className="container flex flex-col text-left">
-            <button className="link underline font-thin text-left mb-5 text-lg">
+            <button onClick={() => props.navigateTo("/interior")} className="link underline font-thin text-left mb-5 text-lg">
               Interior Services
             </button>
-            <button className="link underline font-thin text-left mb-5 text-lg">
+            <button onClick={() => props.navigateTo("/exterior")} className="link underline font-thin text-left mb-5 text-lg">
               Exterior Services
             </button>
-            <button className="link underline font-thin text-left mb-5 text-lg">
+            <button onClick={() => props.navigateTo("/patios")} className="link underline font-thin text-left mb-5 text-lg">
               Patios and Decks
             </button>
-            <button className="link underline font-thin text-left mb-5 text-lg">
-              Hardscape and Irrigation
+            <button onClick={() => props.navigateTo("/backyard")} className="link underline font-thin text-left mb-5 text-lg">
+              Backyard Projects
             </button>
-            <button className="link underline font-thin text-left mb-5 text-lg">
+            <button onClick={() => props.navigateTo("/fencing")} className="link underline font-thin text-left mb-5 text-lg">
               Fencing
             </button>
           </div>

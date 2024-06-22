@@ -1,4 +1,4 @@
-import { React, useRef, useState } from "react";
+import { React, useEffect, useRef, useState } from "react";
 import "./estimates.css";
 import logo from "../../imgs/logo.png";
 import emailjs from "@emailjs/browser";
@@ -24,6 +24,17 @@ const Estimates = () => {
 
     toggleEmail((prev) => !prev);
   }
+
+  useEffect(() => {
+    const body = document.querySelector('#root');
+
+    body.scrollIntoView({
+      top: 0,
+        behavior: 'smooth'
+    }, 500)
+
+}, []);
+
   return (
     <div
       className="page pb-12 pl-5 pr-5 sm:pl-20 sm:pr-20 bg-white"
