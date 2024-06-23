@@ -1,5 +1,6 @@
 {
   "name": "de-jesus-contracting",
+  "homepage": "https://matthewcourtneydev.github.io/de-jesus-contracting/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +9,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "emailjs": "^4.0.3",
-    "gh-pages": "^6.1.1",
     "node-sass": "^7.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -18,6 +18,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.4"
   }
 }
