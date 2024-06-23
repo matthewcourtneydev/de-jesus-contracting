@@ -8,7 +8,7 @@ const NavMenu = (props) => {
     }
 
     return (
-        <div className={props.isMenuOpen ? "nav-menu sm:pr-20 sm:pl-20 text-white sm:flex sm:flex-row fixed left-0 top-0 p-5 pt-20 h-screen w-screen" : "hidden"}>
+        <div className={props.isMenuOpen ? "nav-menu sm:pr-20 sm:pl-20 text-light sm:flex sm:flex-row fixed left-0 top-0 p-5 pt-20 h-screen w-screen" : "hidden"}>
             <div className="left-menu hidden sm:flex sm:w-1/2 h-full pt-10">
                 <div className="menu-image max-h-80 h-3/4 w-3/4 bg-blue-300"></div>
             </div>

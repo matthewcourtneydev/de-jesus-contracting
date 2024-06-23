@@ -14,6 +14,7 @@ import Fencing from "./pages/fencing/fencing";
 import Backyard from "./pages/backyard/backyard";
 import Patios from "./pages/patios/patios";
 import Portfolio from "./pages/portfolio/portfolio";
+import Testimonials from "./pages/testimonials/testimonials";
 
 function App() {
   const navigate = useNavigate();
@@ -31,13 +32,14 @@ function App() {
       <Routes>
         <Route path={"/"} element={<Home navigateTo={navigateTo} />} />
         <Route path={"/estimates"} element={<Estimates />} />
-        <Route path={"/about"} element={<About />} />
+        <Route path={"/about"} element={<About navigateTo={navigateTo}/>} />
         <Route path={"/interior"} element={<Interior navigateTo={navigateTo} />} />
         <Route path={"/exterior"} element={<Exterior navigateTo={navigateTo} />} />
         <Route path={"/patios"} element={<Patios navigateTo={navigateTo} />} />
         <Route path={"/backyard"} element={<Backyard navigateTo={navigateTo} />} />
         <Route path={"/fencing"} element={<Fencing navigateTo={navigateTo} />} />
         <Route path={"/portfolio"} element={<Portfolio navigateTo={navigateTo}/>} />
+        <Route path={"/testimonials"} element={<Testimonials navigateTo={navigateTo}/>} />
       </Routes>
       <Footer navigateTo={navigateTo}/>
       <NavMenu currentPage={currentPage} isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} navigateTo={navigateTo} />

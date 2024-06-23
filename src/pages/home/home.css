@@ -13,13 +13,18 @@ header {
 }
 
 .right {
-  background-color: rgb(26, 41, 79);
+  background-color: #273043;
   min-height: 450px;
   font-family: "Oswald", sans-serif;
 }
 
 h2 {
     font-family: "Oswald", sans-serif;
+}
+
+.pre-text {
+    color: #869583;
+    font-style: italic;
 }
 
 @media only screen and (min-width: 600px) {
@@ -32,7 +37,7 @@ h2 {
 }
 
 .whole-dark {
-    background-color: rgb(26, 41, 79);
+    background-color: #273043;
     color: white;
 }
 .whole-lite {

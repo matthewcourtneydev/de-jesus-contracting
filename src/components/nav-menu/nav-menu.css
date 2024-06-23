@@ -1,9 +1,10 @@
 .item {
     font-family: "Oswald", sans-serif;
+    color:#F2F7F2;
 }
 
 .nav-menu {
-    background-color: rgb(26, 41, 79);
+    background-color: #273043;
 }
 
 .menu-image {
@@ -12,3 +13,4 @@
     background-position: center;
     background-repeat: none;
 }
+

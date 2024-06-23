@@ -1,6 +1,7 @@
 .filter-items, .projects {
-    background-color: rgb(26, 41, 79);
+    background-color: #273043;
 }
+
 
 .interior-one {
     background-image: url("../../imgs/interior-filter-1.jpeg");

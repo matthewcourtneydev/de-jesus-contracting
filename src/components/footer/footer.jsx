@@ -36,15 +36,15 @@ const Footer = (props) => {
           <img src={logo} alt="" className="w-full" />
         </section>
         <section className="footer-section w-100 sm:w-1/6 h-full mb-10">
-          <h3 className="font-bold text-lg sm:text-sm mb-8">GET IN TOUCH</h3>
+          <h3 className="font-bold text-lg sm:text-sm mb-8 text-light">GET IN TOUCH</h3>
           <div className="container w-full sm:w-5/6">
             <div className="item w-full flex flex-row mb-3">
               <span className="icon w-1/6 mt-1">
                 <FaLocationDot className="m" />
               </span>
               <span className="info sm:w-5/6">
-                <p>123 Main St,</p>
-                <p>Rock Hill, SC 111111</p>
+                <p className="text-light">123 Main St,</p>
+                <p className="text-light">Rock Hill, SC 111111</p>
               </span>
             </div>
             <div className="item w-full flex flex-row mb-3">
@@ -52,15 +52,15 @@ const Footer = (props) => {
                 <FaPhone />
               </span>
               <span className="info w-5/6">
-                <a href="tel:6072064901">(803) 444 0118</a>
+                <a className="text-light" href="tel:6072064901">(803) 444 0118</a>
               </span>
             </div>
             <div className="item w-full flex flex-row mb-3">
               <span className="icon w-1/6 mt-1">
-                <IoMdMail />
+                <IoMdMail className="text-light" />
               </span>
               <span className="info text-wrap sm:w-5/6">
-                <a className="text-wrap word-wrap text-xxs w-1/3" href="mailTo: mdcdev23@gmail.com">
+                <a className="text-wrap text-light word-wrap text-xxs w-1/3" href="mailTo: mdcdev23@gmail.com">
                   dejesuscontractingllc@gmail.com
                 </a>
               </span>
@@ -68,7 +68,7 @@ const Footer = (props) => {
           </div>
         </section>
         <section className="footer-section w-100 md:w-1/5 h-full mb-10">
-          <h3 className="font-bold text-lg sm:text-sm mb-8">
+          <h3 className="font-bold text-light text-lg sm:text-sm mb-8">
             SEND US A MESSAGE
           </h3>
           <div className="container w-full lg:w-5/6">
@@ -87,28 +87,28 @@ const Footer = (props) => {
                   id="name"
                   name="first"
                   placeholder="Name"
-                  className="w-full mb-7 bg-transparent border-b-white border-b pb-2 text-white"
+                  className="w-full mb-7 bg-transparent border-b-white border-b pb-2 text-light"
                 />
                 <input
                   type="phone"
                   id="phone"
                   name="phone"
                   placeholder="Phone"
-                  className="w-full mb-7 bg-transparent border-b-white border-b pb-2 text-white"
+                  className="w-full mb-7 bg-transparent border-b-white border-b pb-2 text-light"
                 />
                 <input
                   type="email"
                   id="email"
                   name="email"
                   placeholder="Email"
-                  className="w-full mb-7 bg-transparent border-b-white border-b pb-2 text-white"
+                  className="w-full mb-7 bg-transparent border-b-white border-b pb-2 text-light"
                 />
                 <input
                   type="text"
                   id="message"
                   name="comments"
                   placeholder="Your Message"
-                  className="w-full mb-7 bg-transparent border-b-white border-b pb-2 text-white"
+                  className="w-full mb-7 bg-transparent border-b-white border-b pb-2 text-light"
                 />
                 <button className="submit bg-white w-full sm:p-2 p-5 mt-5 text-black font-bold">
                   SUBMIT
@@ -118,40 +118,40 @@ const Footer = (props) => {
           </div>
         </section>
         <section className="footer-section w-100 md:w-1/5 h-full mb-10">
-          <h3 className="font-bold text-lg sm:text-sm mb-8">SERVICES</h3>
+          <h3 className="font-bold text-light text-lg sm:text-sm mb-8">SERVICES</h3>
           <div className="container flex flex-col text-left">
-            <button onClick={() => props.navigateTo("/interior")} className="link underline font-thin text-left mb-5 text-lg">
+            <button onClick={() => props.navigateTo("/interior")} className="link text-light underline font-thin text-left mb-5 text-lg">
               Interior Services
             </button>
-            <button onClick={() => props.navigateTo("/exterior")} className="link underline font-thin text-left mb-5 text-lg">
+            <button onClick={() => props.navigateTo("/exterior")} className="link text-light underline font-thin text-left mb-5 text-lg">
               Exterior Services
             </button>
-            <button onClick={() => props.navigateTo("/patios")} className="link underline font-thin text-left mb-5 text-lg">
+            <button onClick={() => props.navigateTo("/patios")} className="link text-light underline font-thin text-left mb-5 text-lg">
               Patios and Decks
             </button>
-            <button onClick={() => props.navigateTo("/backyard")} className="link underline font-thin text-left mb-5 text-lg">
+            <button onClick={() => props.navigateTo("/backyard")} className="link text-light underline font-thin text-left mb-5 text-lg">
               Backyard Projects
             </button>
-            <button onClick={() => props.navigateTo("/fencing")} className="link underline font-thin text-left mb-5 text-lg">
+            <button onClick={() => props.navigateTo("/fencing")} className="link text-light underline font-thin text-left mb-5 text-lg">
               Fencing
             </button>
           </div>
         </section>
         <section className="footer-section w-100 md:w-1/5 h-full mb-10">
-          <h3 className="font-bold text-lg sm:text-sm mb-8">SOCIAL NETWORKS</h3>
+          <h3 className="text-light font-bold text-lg sm:text-sm mb-8">SOCIAL NETWORKS</h3>
 
           <div className="container flex w-full mb-20">
-            <button className="social bg-amber-400 mr-2 p-2 rounded-full aspect-square">
+            <button className="social mr-2 p-2 rounded-full aspect-square">
               <RiInstagramFill />
             </button>
-            <button className="social bg-amber-400 mr-2 p-2 rounded-full aspect-square">
+            <button className="social mr-2 p-2 rounded-full aspect-square">
               <FaFacebookF />
             </button>
-            <button className="social bg-amber-400 mr-2 p-2 rounded-full aspect-square">
+            <button className="social mr-2 p-2 rounded-full aspect-square">
               <FaTwitter />
             </button>
           </div>
-          <h3 className="font-bold text-lg sm:text-sm mb-8 flex content-center">
+          <h3 className="font-bold text-light text-lg sm:text-sm mb-8 flex content-center">
             BACK TO TOP <FaLongArrowAltUp className="mt-1 ml-2" />
           </h3>
         </section>

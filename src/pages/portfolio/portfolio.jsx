@@ -167,93 +167,93 @@ const Portfolio = (props) => {
       <div className="med-header-interior w-screen hidden sm:flex min-h-24">
         <img src={logo} alt="" className="w-1/6 h-3/4 mt-4 ml-20" />
       </div>
-      <section className="top-section sm:flex sm:flex-wrap p-5 pt-20 sm:pt-8 sm:pb-10 sm:pl-20 sm:pr-20 text-white">
-        <h2 className="sub-header mb-5 sm:mb-0 text-5xl leading-10 sm:leading-10 sm:font-light sm:mt-2 md:text-5xl flex flex-col sm:flex-row sm:w-3/6">
-          <span className="sm:mt-0">{filterData[filterItem].titleOne}</span>
-          <span className="mt-2 sm:mt-0 sm:ml-3">
+      <section className="top-section sm:flex sm:flex-wrap p-5 pt-20 sm:pt-8 sm:pb-10 sm:pl-20 sm:pr-20 text-light">
+        <h2 className="sub-header mb-5 sm:mb-0 text-5xl leading-10 sm:leading-10 sm:text-light sm:mt-2 md:text-5xl flex flex-col sm:flex-row sm:w-3/6">
+          <span className="sm:mt-0 text-light">{filterData[filterItem].titleOne}</span>
+          <span className="mt-2 sm:mt-0 sm:ml-3 text-light">
             {filterData[filterItem].titleTwo}
           </span>
         </h2>
       </section>
       <section className="filter-items">
-        <ul className="flex sm:pl-20 sm:pr-20 text-white font-bold flex-row w-full overflow-y-scroll">
+        <ul className="flex sm:pl-20 sm:pr-20 text-light font-bold flex-row w-full overflow-y-scroll">
           <li onClick={() => handleFilter(0)} className="flex flex-col w-fit p-5  pt-0 text-center">
             <span className="top-filter bg-red-400 rounded-full mb-2 aspect-square w-20 h-20"></span>
-            <span className="bottom-filter w-20 text-xs">
+            <span className="bottom-filter text-light w-20 text-xs">
               INTERIOR PROJECTS
             </span>
           </li>
           <li onClick={() => handleFilter(1)} className="flex flex-col w-fit p-5 pt-0 text-center">
             <span className="top-filter bg-red-400 rounded-full mb-2 aspect-square w-20 h-20"></span>
-            <span className="bottom-filter w-20 text-xs">
+            <span className="bottom-filter text-light w-20 text-xs">
               EXTERIOR PROJECTS
             </span>
           </li>
           <li onClick={() => handleFilter(2)} className="flex flex-col w-fit p-5 pt-0 text-center">
             <span className="top-filter bg-red-400 rounded-full mb-2 aspect-square w-20 h-20"></span>
-            <span className="bottom-filter w-20 text-xs">
+            <span className="bottom-filter text-light w-20 text-xs">
               PATIO/DECK PROJECTS
             </span>
           </li>
           <li onClick={() => handleFilter(3)} className="flex flex-col w-fit p-5 pt-0 text-center">
             <span className="top-filter bg-red-400 rounded-full mb-2 aspect-square w-20 h-20"></span>
-            <span className="bottom-filter w-20 text-xs">
+            <span className="bottom-filter text-light w-20 text-xs">
               BACKYARD PROJECTS
             </span>
           </li>
           <li onClick={() => handleFilter(4)} className="flex flex-col w-fit p-5 pt-0 text-center">
             <span className="top-filter bg-red-400 rounded-full mb-2 aspect-square w-20 h-20"></span>
-            <span className="bottom-filter w-20 text-xs">FENCING PROJECTS</span>
+            <span className="bottom-filter text-light w-20 text-xs">FENCING PROJECTS</span>
           </li>
         </ul>
       </section>
-      <section className="projects pt-10 text-white pl-5 pr-5 sm:pl-20 sm:pr-20 sm:flex sm:flex-wrap">
+      <section className="projects pt-10 text-light pl-5 pr-5 sm:pl-20 sm:pr-20 sm:flex sm:flex-wrap">
         <div className="card w-full pb-5 sm:w-2/6">
           <div className={`${filterData[filterItem].projectOne.class} card-img-1 w-full h-52 mb-5 bg-green-300`}></div>
-          <p className="text-bold text-sm font-bold mb-2">
+          <p className="text-bold text-light text-sm font-bold mb-2">
             {filterData[filterItem].titleOne} PROJECT
           </p>
-          <p className="text-2xl sm:text-base font-thin w-1/2">
+          <p className="text-2xl text-light sm:text-base font-thin w-1/2">
             {filterData[filterItem].projectOne.city},
             <br /> {filterData[filterItem].projectOne.state}
           </p>
         </div>
         <div className="card w-full pb-5 sm:p-10 sm:pt-20 sm:w-4/6">
           <div className={`${filterData[filterItem].projectTwo.class} sm:h-80 card-img-1 w-full h-52 mb-5 bg-green-300`}></div>
-          <p className="text-bold text-sm font-bold mb-2">
+          <p className="text-bold text-light text-sm font-bold mb-2">
             {filterData[filterItem].titleOne} PROJECT
           </p>
-          <p className="text-2xl sm:text-base font-thin w-1/2">
+          <p className="text-2xl text-light sm:text-base font-thin w-1/2">
             {filterData[filterItem].projectTwo.city},
             <br /> {filterData[filterItem].projectTwo.state}
           </p>
         </div>
         <div className="card w-full pb-5 sm:w-4/5 sm:m-auto sm:mt-10">
           <div className={`${filterData[filterItem].projectThree.class} sm:h-80 card-img-1 w-full h-52 mb-5 bg-green-300`}></div>
-          <p className="text-bold text-sm font-bold mb-2">
+          <p className="text-bold text-light text-sm font-bold mb-2">
             {filterData[filterItem].titleOne} PROJECT
           </p>
-          <p className="text-2xl sm:text-base font-thin w-1/2">
+          <p className="text-2xl text-light sm:text-base font-thin w-1/2">
             {filterData[filterItem].projectThree.city},
             <br /> {filterData[filterItem].projectThree.state}
           </p>
         </div>
         <div className="card w-full pb-5 sm:mt-10 sm:w-2/6">
           <div className={`${filterData[filterItem].projectFour.class} card-img-1 w-full h-52 mb-5 bg-green-300`}></div>
-          <p className="text-bold text-sm font-bold mb-2">
+          <p className="text-bold text-light text-sm font-bold mb-2">
             {filterData[filterItem].titleOne} PROJECT
           </p>
-          <p className="text-2xl sm:text-base font-thin w-1/2">
+          <p className="text-2xl text-light sm:text-base font-thin w-1/2">
             {filterData[filterItem].projectFour.city},
             <br /> {filterData[filterItem].projectFour.state}
           </p>
         </div>
         <div className="card w-full pb-5 sm:p-10 sm:pt-20 sm:w-4/6">
           <div className={`${filterData[filterItem].projectFive.class} sm:h-80 card-img-1 w-full h-52 mb-5 bg-green-300`}></div>
-          <p className="text-bold text-sm font-bold mb-2">
+          <p className="text-bold text-light text-sm font-bold mb-2">
             {filterData[filterItem].titleOne} PROJECT
           </p>
-          <p className="text-2xl sm:text-base font-thin w-1/2">
+          <p className="text-2xl text-light sm:text-base font-thin w-1/2">
             {filterData[filterItem].projectFive.city},
             <br /> {filterData[filterItem].projectFive.state}
           </p>

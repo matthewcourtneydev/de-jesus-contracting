@@ -45,7 +45,7 @@ const Estimates = () => {
       </div>
       <div className="header-text pt-20 sm:pt-5 lg:pt-28 pr-5 w-full h-full  md:w-1/2 lg:pr-24">
         <p className="pre-text text-xs">/ The first step</p>
-        <h2 className="sub-header mb-5 text-4xl leading-10 sm:font-light sm:mt-2 md:text-5xl flex flex-col">
+        <h2 className="sub-header mb-5 text-4xl leading-10 sm:text-light sm:mt-2 md:text-5xl flex flex-col">
           FREE ESTIMATE
         </h2>
       </div>
@@ -76,14 +76,14 @@ const Estimates = () => {
                 id="name"
                 name="first"
                 placeholder="Name"
-                className="w-full mb-3 sm:mb-2 mt-4 sm:mt-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-white"
+                className="w-full mb-3 sm:mb-2 mt-4 sm:mt-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-light"
               />
               <input
                 type="text"
                 id="name"
                 name="last"
                 placeholder="Last"
-                className="w-full mb-7 sm:mb-5 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-white"
+                className="w-full mb-7 sm:mb-5 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-light"
               />
                     </section>
                 </section>
@@ -98,7 +98,7 @@ const Estimates = () => {
                 id="phone"
                 name="phone"
                 placeholder="Phone"
-                className="w-full mb-7 sm:mb-5 mt-4 sm:mt-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-white"
+                className="w-full mb-7 sm:mb-5 mt-4 sm:mt-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-light"
               />
               </label>
               <label htmlFor="Email" className="font-bold text-xl sm:text-sm">
@@ -109,7 +109,7 @@ const Estimates = () => {
                 id="email"
                 name="email"
                 placeholder="Email"
-                className="w-full mb-7 sm:mb-5 mt-4 sm:mt-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-white"
+                className="w-full mb-7 sm:mb-5 mt-4 sm:mt-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-light"
               />
               </label>
               <label htmlFor="Address" className="font-bold text-xl sm:text-sm">
@@ -120,17 +120,17 @@ const Estimates = () => {
                 id="addressLineOne"
                 name="address"
                 placeholder="Address"
-                className="w-full mb-7 sm:mb-2 mt-4 sm:mt-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-white"
+                className="w-full mb-7 sm:mb-2 mt-4 sm:mt-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-light"
               />
               <input
                 type="text"
                 id="city"
                 name="city"
                 placeholder="City"
-                className="w-full mb-7 sm:mb-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-white"
+                className="w-full mb-7 sm:mb-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-light"
               />
               <select
-                className="w-full mb-7 sm:mb-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-white"
+                className="w-full mb-7 sm:mb-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-light"
                 name="state"
                 id="state"
               >
@@ -142,7 +142,7 @@ const Estimates = () => {
                 id="zip"
                 name="zip"
                 placeholder="Zip"
-                className="w-full mb-7 sm:mb-5 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-white"
+                className="w-full mb-7 sm:mb-5 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-light"
               />
               </label>
               <label
@@ -160,7 +160,7 @@ const Estimates = () => {
                     name="interior"
                     id="interior"
                   />
-                  <label className="text-xl font-light sm:text-sm" htmlFor="interior">
+                  <label className="text-xl text-light sm:text-sm" htmlFor="interior">
                     Interior
                   </label>
                 </span>
@@ -171,7 +171,7 @@ const Estimates = () => {
                     name="exterior"
                     id="exterior"
                   />
-                  <label className="text-xl font-light sm:text-sm" htmlFor="exterior">
+                  <label className="text-xl text-light sm:text-sm" htmlFor="exterior">
                     Exterior
                   </label>
                 </span>
@@ -182,7 +182,7 @@ const Estimates = () => {
                     name="patio"
                     id="patio"
                   />
-                  <label className="text-xl font-light sm:text-sm" htmlFor="patio">
+                  <label className="text-xl text-light sm:text-sm" htmlFor="patio">
                     Patio
                   </label>
                 </span>
@@ -196,7 +196,7 @@ const Estimates = () => {
                 id="message"
                 name="comments"
 
-                className="w-full mt-4s mb-7 sm:mb-5 bg-transparent border-slate-200 border pb-2 text-white"
+                className="w-full mt-4s mb-7 sm:mb-5 bg-transparent border-slate-200 border pb-2 text-light"
               />
               <button className="submit bg-white w-full sm:p-2 p-5 mt-5 text-black font-bold">
                 SUBMIT
