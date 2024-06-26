@@ -37,20 +37,20 @@ const Estimates = () => {
 
   return (
     <div
-      className="page pb-12 pl-5 pr-5 sm:pl-20 sm:pr-20 bg-white"
+      className="page pb-12 pl-5 pr-5 md:pl-20 md:pr-20 bg-white"
       id="estimate-page"
     >
-      <div className="med-header w-screen hidden sm:flex min-h-24">
-        <img src={logo} alt="" className="w-1/6 h-3/4 mt-4 ml-20" />
+      <div className="med-header w-screen hidden md:flex min-h-24">
+        <img src={logo} alt="" className="w-1/6 max-w-28 h-3/4 mt-4 ml-20" />
       </div>
-      <div className="header-text pt-20 sm:pt-5 lg:pt-28 pr-5 w-full h-full  md:w-1/2 lg:pr-24">
+      <div className="header-text pt-20 md:pt-5 lg:pt-28 pr-5 w-full h-full  md:w-1/2 lg:pr-24">
         <p className="pre-text text-xs">/ The first step</p>
-        <h2 className="sub-header mb-5 text-4xl leading-10 sm:text-light sm:mt-2 md:text-5xl flex flex-col">
+        <h2 className="sub-header mb-5 text-4xl leading-10 md:text-light md:mt-2 md:text-5xl flex flex-col">
           FREE ESTIMATE
         </h2>
       </div>
-      <div className="container sm:flex sm:flex-row w-full">
-        <div className="form-container w-full sm:w-1/2">
+      <div className="container md:flex md:flex-row w-full">
+        <div className="form-container w-full md:w-1/2">
           {isEmailSent ? (
             <div>
               <h4>
@@ -62,11 +62,11 @@ const Estimates = () => {
             <form
               onSubmit={handleSubmit}
               ref={form}
-              className="contact-estimate sm:w-5/6 h-full sm:ml-0 sm:mr-auto"
+              className="contact-estimate md:w-5/6 h-full md:ml-0 md:mr-auto"
             >
                 <section>
                     <section className="upper">
-                    <label htmlFor="Name" className="font-bold text-xl sm:text-sm">
+                    <label htmlFor="Name" className="font-bold text-xl md:text-sm">
                 Name
                 </label>
                     </section>
@@ -76,21 +76,21 @@ const Estimates = () => {
                 id="name"
                 name="first"
                 placeholder="Name"
-                className="w-full mb-3 sm:mb-2 mt-4 sm:mt-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-light"
+                className="w-full mb-3 md:mb-2 mt-4 md:mt-2 bg-transparent border-slate-200 border p-3 md:text-sm md:p-2 rounded text-light"
               />
               <input
                 type="text"
                 id="name"
                 name="last"
                 placeholder="Last"
-                className="w-full mb-7 sm:mb-5 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-light"
+                className="w-full mb-7 md:mb-5 bg-transparent border-slate-200 border p-3 md:text-sm md:p-2 rounded text-light"
               />
                     </section>
                 </section>
 
 
 
- <label htmlFor="Name" className="font-bold text-xl sm:text-sm">
+ <label htmlFor="Name" className="font-bold text-xl md:text-sm">
                 Phone
               
               <input
@@ -98,10 +98,10 @@ const Estimates = () => {
                 id="phone"
                 name="phone"
                 placeholder="Phone"
-                className="w-full mb-7 sm:mb-5 mt-4 sm:mt-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-light"
+                className="w-full mb-7 md:mb-5 mt-4 md:mt-2 bg-transparent border-slate-200 border p-3 md:text-sm md:p-2 rounded text-light"
               />
               </label>
-              <label htmlFor="Email" className="font-bold text-xl sm:text-sm">
+              <label htmlFor="Email" className="font-bold text-xl md:text-sm">
                 Email
               
               <input
@@ -109,10 +109,10 @@ const Estimates = () => {
                 id="email"
                 name="email"
                 placeholder="Email"
-                className="w-full mb-7 sm:mb-5 mt-4 sm:mt-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-light"
+                className="w-full mb-7 md:mb-5 mt-4 md:mt-2 bg-transparent border-slate-200 border p-3 md:text-sm md:p-2 rounded text-light"
               />
               </label>
-              <label htmlFor="Address" className="font-bold text-xl sm:text-sm">
+              <label htmlFor="Address" className="font-bold text-xl md:text-sm">
                 Address
            
               <input
@@ -120,17 +120,17 @@ const Estimates = () => {
                 id="addressLineOne"
                 name="address"
                 placeholder="Address"
-                className="w-full mb-7 sm:mb-2 mt-4 sm:mt-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-light"
+                className="w-full mb-7 md:mb-2 mt-4 md:mt-2 bg-transparent border-slate-200 border p-3 md:text-sm md:p-2 rounded text-light"
               />
               <input
                 type="text"
                 id="city"
                 name="city"
                 placeholder="City"
-                className="w-full mb-7 sm:mb-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-light"
+                className="w-full mb-7 md:mb-2 bg-transparent border-slate-200 border p-3 md:text-sm md:p-2 rounded text-light"
               />
               <select
-                className="w-full mb-7 sm:mb-2 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-light"
+                className="w-full mb-7 md:mb-2 bg-transparent border-slate-200 border p-3 md:text-sm md:p-2 rounded text-light"
                 name="state"
                 id="state"
               >
@@ -142,25 +142,25 @@ const Estimates = () => {
                 id="zip"
                 name="zip"
                 placeholder="Zip"
-                className="w-full mb-7 sm:mb-5 bg-transparent border-slate-200 border p-3 sm:text-sm sm:p-2 rounded text-light"
+                className="w-full mb-7 md:mb-5 bg-transparent border-slate-200 border p-3 md:text-sm md:p-2 rounded text-light"
               />
               </label>
               <label
                 htmlFor="interest"
-                className="font-bold text-xl sm:text-sm"
+                className="font-bold text-xl md:text-sm"
               >
                 I'm interested in:
              
 
-              <section className="w-full mt-2 mb-7 sm:mb-5 pl-3 flex flex-col">
+              <section className="w-full mt-2 mb-7 md:mb-5 pl-3 flex flex-col">
                 <span>
                   <input
-                    className="radio mb-4 mt-4 sm:mt-2 mr-2"
+                    className="radio mb-4 mt-4 md:mt-2 mr-2"
                     type="radio"
                     name="interior"
                     id="interior"
                   />
-                  <label className="text-xl text-light sm:text-sm" htmlFor="interior">
+                  <label className="text-xl text-light md:text-sm" htmlFor="interior">
                     Interior
                   </label>
                 </span>
@@ -171,7 +171,7 @@ const Estimates = () => {
                     name="exterior"
                     id="exterior"
                   />
-                  <label className="text-xl text-light sm:text-sm" htmlFor="exterior">
+                  <label className="text-xl text-light md:text-sm" htmlFor="exterior">
                     Exterior
                   </label>
                 </span>
@@ -182,13 +182,13 @@ const Estimates = () => {
                     name="patio"
                     id="patio"
                   />
-                  <label className="text-xl text-light sm:text-sm" htmlFor="patio">
+                  <label className="text-xl text-light md:text-sm" htmlFor="patio">
                     Patio
                   </label>
                 </span>
               </section>
 </label>
-<label htmlFor="comments" className="font-bold text-xl sm:text-sm">Your Comments</label>
+<label htmlFor="comments" className="font-bold text-xl md:text-sm">Your Comments</label>
               <textarea
                 type="text"
                 cols="10"
@@ -196,16 +196,16 @@ const Estimates = () => {
                 id="message"
                 name="comments"
 
-                className="w-full mt-4s mb-7 sm:mb-5 bg-transparent border-slate-200 border pb-2 text-light"
+                className="w-full mt-4s mb-7 md:mb-5 bg-transparent border-slate-200 border pb-2 text-light"
               />
-              <button className="submit bg-white w-full sm:p-2 p-5 mt-5 text-black font-bold">
+              <button className="submit bg-white w-full md:p-2 p-5 mt-5 text-black font-bold">
                 SUBMIT
               </button>
             </form>
           )}
         </div>
-        <div className="img-container h-200 sm:w-1/2 ">
-          <div className="img contact-image w-5/6 sm:h-3/4 sm:mt-20 h-full mr-0 ml-auto "></div>
+        <div className="img-container h-200 md:w-1/2 ">
+          <div className="img contact-image w-5/6 md:h-3/4 md:mt-20 h-full mr-0 ml-auto "></div>
         </div>
       </div>
     </div>

@@ -3,18 +3,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #273043;
 }
 .App {
   overflow-y: scroll;
   height: 100svh;
   position: relative;
-  overflow-x: hidden;
+  overflow-x: hidden; 
+  background-color: #273043;;
 }
 .page {
-  background-color: green;
-  width: 100svw;
+  background-color: #273043;;
+  width: 100svw !important;
   min-height: 100svh;
+  margin: auto;
 }
 
 .whole {
@@ -25,4 +26,30 @@
 
 .text-light {
   color: #F2F7F2 !important;
+}
+
+.text-dark {
+  color: #273043;
+}
+
+.pre-text-dark {
+  color: #92a18f;
+}
+
+.pre-text-light {
+  color: #7c877a;
+}
+
+.icon {
+  background-color: #7c877a;
+}
+
+.sans-font-it {
+  font-family: "Outfit", sans-serif;
+  font-style: italic;
+}
+
+.sans-font {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
 }

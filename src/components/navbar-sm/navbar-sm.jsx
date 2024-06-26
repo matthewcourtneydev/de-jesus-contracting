@@ -12,14 +12,14 @@ const NavbarSm = (props) => {
           <IoMdClose className="mr-2 text-light" /> CLOSE
         </span>
       ) : (
-        <span className="nav-left flex text-light items-center" onClick={() => props.toggleMenu((prev) => !prev)}>
-          <RxHamburgerMenu className="mr-2 text-light" /> MENU
+        <span className="nav-left flex text-light items-center text-xs" onClick={() => props.toggleMenu((prev) => !prev)}>
+          <RxHamburgerMenu className="mr-2 text-bold text-light text-base" /> MENU
         </span>
       )}
       <span className="nav-right">
         <button
           onClick={() => props.navigateTo("/estimates")}
-          className="get-started text-light text-xs border p-2 border-solid border-white"
+          className="get-started sans-font text-light text-xs border p-2 border-solid border-white"
         >
           START MY PROJECT
         </button>

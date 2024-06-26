@@ -8,11 +8,34 @@
 
 
 .remodel-img-patio {
-    min-width: 100%;
     max-width: 100%;
     min-height: 200px;
     background-image: url("../../imgs/patio-page-2.jpeg");
     background-position: center;
     background-size: cover;
     position: relative;
+}
+
+.card-img-1-patio {
+    background-image: url("../../imgs/patio-1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-img-2-patio {
+    background-image: url("../../imgs/deck-1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-img-3-patio {
+    background-image: url("../../imgs/porch-1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-img-4-patio {
+    background-image: url("../../imgs/patio-2.webp");
+    background-size: cover;
+    background-position: center;
 }

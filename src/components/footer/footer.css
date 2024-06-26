@@ -1,6 +1,8 @@
 footer {
     background-color: #273043;
     color: white;
+    max-width: 1200px;
+    margin: auto;
 }
 
 
@@ -15,7 +17,7 @@ footer {
         left: 0 !important;
         min-width: 100svw;
         max-width: 100svw;
-        margin-left: -7rem;
+
     }
     
 

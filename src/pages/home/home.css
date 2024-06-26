@@ -5,6 +5,9 @@ header {
 }
 
 
+
+
+
 .left {
   background-image: url(../../imgs/header-image.jpeg);
   background-size: cover;
@@ -24,7 +27,7 @@ h2 {
 
 .pre-text {
     color: #869583;
-    font-style: italic;
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -33,7 +36,8 @@ h2 {
     }
 }
 .header-text {
-    font-size: 1rem;
+    color: #97a894;
+    font-family: "Outfit", sans-serif;
 }
 
 .whole-dark {
@@ -85,6 +89,12 @@ h2 {
     background-repeat: none;
 }
 
+.fencing {
+    background-image: url("../../imgs/fencing-page-2.jpeg");
+    background-size: cover;
+    background-repeat: none;
+}
+
 .remodel-img {
     min-width: 100%;
     max-width: 100%;
@@ -98,4 +108,31 @@ h2 {
 
 .img {
     z-index: 0;
+}
+
+
+.service-circle {
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.circle-i {
+    background-image: url("../../imgs/interior-filter-2.jpeg");
+}
+
+.circle-e {
+    background-image: url("../../imgs/exterior-filter-2.jpeg");
+}
+
+.circle-b {
+    background-image: url("../../imgs/backyard-filter-2.webp");
+}
+
+.circle-p {
+    background-image: url("../../imgs/patio-filter-1.jpeg");
+}
+
+.circle-f {
+    background-image: url("../../imgs/fencing-filter-2.jpeg");
 }
