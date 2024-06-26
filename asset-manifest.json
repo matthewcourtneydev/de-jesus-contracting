@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/de-jesus-contracting/static/css/main.0e773f24.css",
-    "main.js": "/de-jesus-contracting/static/js/main.f7defed8.js",
+    "main.css": "/de-jesus-contracting/static/css/main.11b8db4d.css",
+    "main.js": "/de-jesus-contracting/static/js/main.19ac2a58.js",
     "static/media/backyard-filter-1.jpeg": "/de-jesus-contracting/static/media/backyard-filter-1.14db04eb331d255df6cd.jpeg",
     "static/media/header-image.jpeg": "/de-jesus-contracting/static/media/header-image.8d462b28dd4d81f386a9.jpeg",
     "static/media/deck2.jpg": "/de-jesus-contracting/static/media/deck2.c0e88ae14c58f263f675.jpg",
     "static/media/patio-filter-4.jpeg": "/de-jesus-contracting/static/media/patio-filter-4.4b8d7198c9044d1a188c.jpeg",
+    "static/media/porch-1.jpeg": "/de-jesus-contracting/static/media/porch-1.4b8d7198c9044d1a188c.jpeg",
     "static/media/backyard-filter-5.jpeg": "/de-jesus-contracting/static/media/backyard-filter-5.d09956181d252b9958af.jpeg",
     "static/media/logo.png": "/de-jesus-contracting/static/media/logo.3a7b24abc9387070ff11.png",
     "static/media/backyard-filter-3.jpeg": "/de-jesus-contracting/static/media/backyard-filter-3.ba4203426a5bfb29621f.jpeg",
@@ -19,13 +20,22 @@
     "static/media/fencing-filter-3.jpeg": "/de-jesus-contracting/static/media/fencing-filter-3.c88c2211b7f9b28ee4d9.jpeg",
     "static/media/interior-contact.jpeg": "/de-jesus-contracting/static/media/interior-contact.8f851c0a3fa5c3343308.jpeg",
     "static/media/backyard-page-1.jpeg": "/de-jesus-contracting/static/media/backyard-page-1.1d3508e110b2b38eccff.jpeg",
+    "static/media/deck-1.jpeg": "/de-jesus-contracting/static/media/deck-1.60f94eaa3c47f53de0fd.jpeg",
+    "static/media/roofing-2.jpeg": "/de-jesus-contracting/static/media/roofing-2.32dc11ff3b1db5310cb8.jpeg",
     "static/media/fencing-filter-4.jpeg": "/de-jesus-contracting/static/media/fencing-filter-4.e89d1c8fd92a9bd8dddb.jpeg",
+    "static/media/patio-2.webp": "/de-jesus-contracting/static/media/patio-2.8971100f11ed9bb5e1e9.webp",
     "static/media/fencing-page-2.jpeg": "/de-jesus-contracting/static/media/fencing-page-2.230ef8707800654c708d.jpeg",
     "static/media/deck1.webp": "/de-jesus-contracting/static/media/deck1.b7137630d4e019b7c76a.webp",
     "static/media/exterior-filter-1.jpeg": "/de-jesus-contracting/static/media/exterior-filter-1.8c61427e40736ac06cf1.jpeg",
+    "static/media/backyard-4.jpeg": "/de-jesus-contracting/static/media/backyard-4.fc94cd2bc20093c44543.jpeg",
     "static/media/backyard-filter-2.webp": "/de-jesus-contracting/static/media/backyard-filter-2.cfe522e5c47e3431f96a.webp",
+    "static/media/backyard-1.jpeg": "/de-jesus-contracting/static/media/backyard-1.075b8ea4cbe77e3954a2.jpeg",
     "static/media/backyard-page-2.jpeg": "/de-jesus-contracting/static/media/backyard-page-2.13cc1b7c2a4f63dd7638.jpeg",
+    "static/media/patio-1.jpeg": "/de-jesus-contracting/static/media/patio-1.e8a431e32746897535d4.jpeg",
+    "static/media/window-1.jpeg": "/de-jesus-contracting/static/media/window-1.f34c59aaef6d1a682369.jpeg",
+    "static/media/backyard-3.jpeg": "/de-jesus-contracting/static/media/backyard-3.e54d55bb3cea716f70b9.jpeg",
     "static/media/hardscape1.jpeg": "/de-jesus-contracting/static/media/hardscape1.a150c560b42c010993a8.jpeg",
+    "static/media/backyard-2.webp": "/de-jesus-contracting/static/media/backyard-2.3ba929343c631702386d.webp",
     "static/media/patio-filter-1.jpeg": "/de-jesus-contracting/static/media/patio-filter-1.17120adc0bb298113c01.jpeg",
     "static/media/exterior-page-1.webp": "/de-jesus-contracting/static/media/exterior-page-1.9669a869aad06150578f.webp",
     "static/media/fencing-filter-1.jpeg": "/de-jesus-contracting/static/media/fencing-filter-1.0e0fbbf11cffa3f5cacc.jpeg",
@@ -35,6 +45,7 @@
     "static/media/fencing-page1.jpeg": "/de-jesus-contracting/static/media/fencing-page1.8776f373275821369463.jpeg",
     "static/media/exterior-filter-3.jpeg": "/de-jesus-contracting/static/media/exterior-filter-3.2556ca0dbeeba96afbfa.jpeg",
     "static/media/menu-img.jpeg": "/de-jesus-contracting/static/media/menu-img.8332bc26cfe9a97349b4.jpeg",
+    "static/media/siding-1.jpeg": "/de-jesus-contracting/static/media/siding-1.70e6611efd035ce4750b.jpeg",
     "static/media/patio-page-1.jpeg": "/de-jesus-contracting/static/media/patio-page-1.9a4f30f271e33d26dc83.jpeg",
     "static/media/exterior-filter-4.webp": "/de-jesus-contracting/static/media/exterior-filter-4.23efe0026e4ff797567a.webp",
     "static/media/fencing-filter-2.jpeg": "/de-jesus-contracting/static/media/fencing-filter-2.ad850b11662862055f79.jpeg",
@@ -44,6 +55,7 @@
     "static/media/interior.jpeg": "/de-jesus-contracting/static/media/interior.0eb2c46135c1067304c4.jpeg",
     "static/media/bedroom.jpeg": "/de-jesus-contracting/static/media/bedroom.e81e6f56f329dc195c8d.jpeg",
     "static/media/kitchen.jpeg": "/de-jesus-contracting/static/media/kitchen.5f4760350bd6788c8430.jpeg",
+    "static/media/roofing-1.jpeg": "/de-jesus-contracting/static/media/roofing-1.cfaeb1b772fe204e4de9.jpeg",
     "static/media/bathroom2.jpeg": "/de-jesus-contracting/static/media/bathroom2.868a2387cf357bf6298d.jpeg",
     "static/media/bathroom.webp": "/de-jesus-contracting/static/media/bathroom.c987b6a76d8f7ad98df2.webp",
     "static/media/interior-filter-3.webp": "/de-jesus-contracting/static/media/interior-filter-3.e5c15325dd0ec26060fe.webp",
@@ -52,11 +64,11 @@
     "static/media/fencing-filter-5.jpeg": "/de-jesus-contracting/static/media/fencing-filter-5.d5c520813f96f75ec01c.jpeg",
     "static/media/interior2.avif": "/de-jesus-contracting/static/media/interior2.5b8dac1883100a2d7e23.avif",
     "index.html": "/de-jesus-contracting/index.html",
-    "main.0e773f24.css.map": "/de-jesus-contracting/static/css/main.0e773f24.css.map",
-    "main.f7defed8.js.map": "/de-jesus-contracting/static/js/main.f7defed8.js.map"
+    "main.11b8db4d.css.map": "/de-jesus-contracting/static/css/main.11b8db4d.css.map",
+    "main.19ac2a58.js.map": "/de-jesus-contracting/static/js/main.19ac2a58.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e773f24.css",
-    "static/js/main.f7defed8.js"
+    "static/css/main.11b8db4d.css",
+    "static/js/main.19ac2a58.js"
   ]
 }
