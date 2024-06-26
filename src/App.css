@@ -4,9 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .App {
   overflow-y: scroll;
   height: 100svh;
+  width: 100svw;
   position: relative;
   overflow-x: hidden; 
   background-color: #273043;;
