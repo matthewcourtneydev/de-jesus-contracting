@@ -3,3 +3,9 @@
     margin-bottom: -1px;
 }
 
+.top-section-img-2-int {
+    background-image: url("../../imgs/interior-pge-2.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -41,7 +41,7 @@ const Estimates = () => {
       id="estimate-page"
     >
       <div className="med-header w-screen hidden md:flex min-h-24">
-        <img src={logo} alt="" className="w-1/6 max-w-28 h-3/4 mt-4 ml-20" />
+        <img src={logo} alt="" className="w-1/6 max-w-28 h-3/4 mt-4 ml-20 xl:ml-52" />
       </div>
       <div className="header-text pt-20 md:pt-5 lg:pt-28 pr-5 w-full h-full  md:w-1/2 lg:pr-24">
         <p className="pre-text text-xs">/ The first step</p>

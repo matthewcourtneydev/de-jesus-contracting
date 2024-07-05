@@ -9,7 +9,7 @@ const About = (props) => {
   return (
     <div className="page" id="about-page">
       <div className="med-header-about w-screen hidden md:flex min-h-24">
-        <img src={logo} alt="" className="w-1/6 max-w-28 h-3/4 mt-4 ml-20" />
+        <img src={logo} alt="" className="w-1/6 max-w-28 h-3/4 mt-4 ml-20 xl:ml-52"  />
       </div>
       <section className="top-section md:flex md:flex-wrap p-5 pt-20 md:pt-8 md:pb-12 md:pl-20 xl:pl-52 xl:pr-52 md:pr-20 text-light">
         <h2 className="sub-header mb-5 text-5xl leading-10 md:leading-10 md:text-light md:mt-2 md:text-5xl flex flex-col md:md:order-0 md:w-3/6 w-full">
@@ -17,7 +17,7 @@ const About = (props) => {
           <span className="mt-2 md:mt-2 text-light">OUR TEAM</span>
         </h2>
         <div className="top-section-img md:mb-20 md:mt-12 w-full h-60 md:order-3 bg-slate-100"></div>
-        <p className="pt-5 md:w-2/6 md:pr-8 font-light sans-font md:text-xxs md:pt-0 md:order-1 text-light">
+        <p className="pt-5 md:w-2/6 md:pr-8 font-light sans-font md:text-xxs md:pt-0 md:order-1 text-light lg:text-xs">
           De Jesus Contracting offers a wide array of construction and
           renovation services in Rock Hill, SC. From roofing and siding to
           painting, flooring, hardscaping, and more, we specialize in both
@@ -65,7 +65,7 @@ const About = (props) => {
               <h4 className="w-3/5 ml-2 sans-font hidden sm:inline font-bold md:ml-0 md:text-sm md:mb-1 text-lg">
                 Quality and Precision
               </h4>
-              <p className="w-full md:text-xxs sans-font font-light md:w-4/5">
+              <p className="w-full md:text-xxs sans-font font-light md:w-4/5 lg:text-xs">
                 Quality and precision are key at De Jesus Contracting. Our
                 meticulous craftsmanship ensures every project exceeds industry
                 standards, resulting in durable, aesthetically pleasing
@@ -84,7 +84,7 @@ const About = (props) => {
               <h4 className="w-3/5 ml-2 hidden sm:inline sans-font font-bold md:ml-0 md:mb-1 md:text-sm text-lg">
                 Integrity
               </h4>
-              <p className="w-full md:text-xxs sans-font font-light md:w-4/5">
+              <p className="w-full md:text-xxs sans-font font-light md:w-4/5 lg:text-xs">
                 Integrity is a core value at De Jesus Contracting. We prioritize
                 transparency, honesty, and ethics, building trust through
                 reliable service and quality results. Our commitment ensures
@@ -100,7 +100,7 @@ const About = (props) => {
           / Our Work
         </p>
         <div className="card  min-h-fit first-card w-full mb-5 md:order-0 md:w-2/5">
-          <div className="card-img-1 w-full h-52 mb-5 bg-green-300"></div>
+          <div className="card-img-1 lg:min-h-60 w-full h-52 mb-5 bg-green-300"></div>
           <p className="text-bold text-xs font-bold mb-2 pre-text-dark">BATHROOM REMODEL</p>
           <p className="text-2xl md:text-xl font-thin w-1/2 text-light">
             Rock Hill,
@@ -116,7 +116,7 @@ const About = (props) => {
           </p>
         </div>
         <div className="card  min-h-fit third-card md:w-2/5 md:mr-20 w-full mb-5 md:order-3">
-          <div className="card-img-3 w-full h-52 mb-5 bg-green-300"></div>
+          <div className="card-img-3 w-full h-52 mb-5 lg:min-h-96 bg-green-300"></div>
           <p className="text-bold pre-text-dark text-xs font-bold mb-2">HARDSCAPE / DECK</p>
           <p className="text-2xl text-light md:text-xl font-thin w-1/2">
             Ballantyne,
@@ -132,7 +132,7 @@ const About = (props) => {
           </p>
         </div>
 
-        <button className="get-started about-portfolio-btn h-fit pt-2 md:w-1/4 md:mr-60 md:order-5 pb-2 pl-5 pr-5 mt-5 border-white border" onClick={() => props.navigateTo("/portfolio")}>
+        <button className="get-started about-portfolio-btn h-fit pt-2 md:w-1/4 md:mr-60 md:order-5 pb-2 pl-5 pr-5 mt-5 border-white lg:mt-48 border" onClick={() => props.navigateTo("/portfolio")}>
           SEE MORE
         </button>
       </section>

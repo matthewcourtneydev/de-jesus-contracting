@@ -16,3 +16,28 @@
     background-size: cover;
     position: relative;
 }
+
+
+.card-img-1-f {
+    background-image: url("../../imgs/fencing-1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-img-2-f {
+    background-image: url("../../imgs/fencing-2.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-img-3-f {
+    background-image: url("../../imgs/fencing-3.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-img-4-f {
+    background-image: url("../../imgs/fencing-4.jpeg");
+    background-size: cover;
+    background-position: center;
+}

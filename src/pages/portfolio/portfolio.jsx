@@ -165,7 +165,7 @@ const Portfolio = (props) => {
   return (
     <div className="page" id="portfolio-page">
       <div className="med-header-interior w-screen hidden md:flex min-h-24">
-        <img src={logo} alt="" className="w-1/6 max-w-28 h-3/4 mt-4 ml-20" />
+        <img src={logo} alt="" className="w-1/6 max-w-28 h-3/4 mt-4 ml-20 xl:ml-52" />
       </div>
       <section className="top-section md:flex md:flex-wrap p-5 pt-20 md:pt-8 md:pb-10 md:pl-20 md:pr-20 text-light">
         <h2 className="sub-header mb-5 md:mb-0 text-5xl leading-10 md:leading-10 md:text-light md:mt-2 md:text-5xl flex flex-col md:flex-row md:w-3/6">

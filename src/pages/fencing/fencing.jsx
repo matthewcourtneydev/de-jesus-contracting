@@ -6,16 +6,11 @@ import logo from "../../imgs/logo.png";
 import { GiOasis } from "react-icons/gi";
 import { MdOutlinePrivacyTip, MdOutlineFence } from "react-icons/md";
 
-
-
-
-
-
 const Fencing = (props) => {
   return (
     <div className="page" id="about-page">
       <div className="med-header-interior w-screen hidden md:flex min-h-24">
-        <img src={logo} alt="" className="w-1/6 max-w-28 h-3/4 mt-4 ml-20" />
+        <img src={logo} alt="" className="w-1/6 max-w-28 h-3/4 mt-4 ml-20 xl:ml-52" />
       </div>
       <section className="top-section md:flex md:flex-wrap p-5 pt-20 md:pt-8 md:pb-12 md:pl-20 xl:pl-52 xl:pr-52 md:pr-20 text-light">
         <h2 className="sub-header mb-5 text-5xl leading-10 md:leading-10 md:text-light md:mt-2 md:text-5xl flex flex-col md:md:order-0 md:w-3/6 w-full">
@@ -133,29 +128,29 @@ const Fencing = (props) => {
           / Our Work
         </p>
         <div className="card  min-h-fit first-card w-full mb-5 md:order-0 md:w-2/5">
-          <div className="card-img-1 w-full h-52 mb-5 bg-green-300"></div>
+          <div className="card-img-1-f w-full h-52 mb-5 bg-green-300"></div>
           <p className="text-bold text-xs font-bold mb-2 pre-text-dark">
-            PATIO PROJECT
+            IRON FENCE
+          </p>
+          <p className="text-2xl md:text-xl font-thin w-1/2 text-light">
+            South Park,
+            <br /> North Carolina
+          </p>
+        </div>
+        <div className="card  min-h-fit second-card md:w-1/2 md:ml-auto md:mr-0 w-full mb-5 md:order-2">
+          <div className="card-img-2-f w-full h-52 mb-5 bg-green-300"></div>
+          <p className="text-bold text-xs font-bold mb-2 pre-text-dark">
+           VINYL FENCE
           </p>
           <p className="text-2xl md:text-xl font-thin w-1/2 text-light">
             Rock Hill,
             <br /> South Carolina
           </p>
         </div>
-        <div className="card  min-h-fit second-card md:w-1/2 md:ml-auto md:mr-0 w-full mb-5 md:order-2">
-          <div className="card-img-2 w-full h-52 mb-5 bg-green-300"></div>
-          <p className="text-bold text-xs font-bold mb-2 pre-text-dark">
-            DECK PROJECT
-          </p>
-          <p className="text-2xl md:text-xl font-thin w-1/2 text-light">
-            Fort Mill,
-            <br /> South Carolina
-          </p>
-        </div>
         <div className="card  min-h-fit third-card md:w-2/5 md:mr-20 w-full mb-5 md:order-3">
-          <div className="card-img-3 w-full h-52 mb-5 bg-green-300"></div>
+          <div className="card-img-3-f w-full h-52 mb-5 bg-green-300"></div>
           <p className="text-bold pre-text-dark text-xs font-bold mb-2">
-            SIDING PROJECT
+            VINYL FENCE
           </p>
           <p className="text-2xl text-light md:text-xl font-thin w-1/2">
             Ballantyne,
@@ -163,9 +158,9 @@ const Fencing = (props) => {
           </p>
         </div>
         <div className="card  min-h-fit w-full second-card md:ml-auto md:mr-0 md:w-1/2 mb-5 md:order-4">
-          <div className="card-img-4 w-full h-52 mb-5 bg-green-300"></div>
+          <div className="card-img-4-f w-full h-52 mb-5 bg-green-300"></div>
           <p className="text-bold text-xs pre-text-dark font-bold mb-2">
-            WINDOW PROJECT
+            WOODEN FENCE
           </p>
           <p className="text-2xl text-light md:text-xl font-thin w-1/2">
             Charlotte,
