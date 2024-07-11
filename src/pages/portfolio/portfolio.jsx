@@ -320,7 +320,7 @@ const Portfolio = (props) => {
       <div className="med-header-interior w-screen hidden md:flex min-h-24">
         <img src={logo} alt="" className="w-1/6 max-w-28 h-3/4 mt-4 ml-20 xl:ml-52" />
       </div>
-      <section className="top-section md:flex md:flex-wrap p-5 pt-20 md:pt-8 md:pb-10 md:pl-20 md:pr-20 text-light">
+      <section className="top-section md:flex md:flex-wrap p-5 pt-20 md:pt-8 md:pb-10 md:pl-20 md:pr-20 text-light xl:pl-52 xl:pr-52">
         <h2 className="sub-header mb-5 md:mb-0 text-5xl leading-10 md:leading-10 md:text-light md:mt-2 md:text-5xl flex flex-col md:flex-row md:w-3/6">
           <span className="md:mt-0 text-light">{filterData[filterItem].titleOne}</span>
           <span className="mt-2 md:mt-0 md:ml-3 text-light">
@@ -329,7 +329,7 @@ const Portfolio = (props) => {
         </h2>
       </section>
       <section className="filter-items">
-        <ul className="flex md:pl-20 md:pr-20 text-light font-bold flex-row w-full overflow-y-scroll">
+        <ul className="flex md:pl-20 md:pr-20 xl:pl-48 text-light font-bold flex-row w-full overflow-y-scroll">
           <li onClick={() => handleFilter(0)} className="flex flex-col w-fit p-5  pt-0 text-center">
             <span className="top-filter interior rounded-full mb-2 aspect-square w-20 h-20"></span>
             <span className="bottom-filter text-light w-20 text-xs">
@@ -361,7 +361,7 @@ const Portfolio = (props) => {
           </li>
         </ul>
       </section>
-      <section className="projects pt-10 text-light pl-5 pr-5 md:pl-20 md:pr-20 md:flex md:flex-wrap">
+      <section className="projects pt-10 text-light pl-5 pr-5 md:pl-20 md:pr-20 xl:pl-52 xl:pr-52 md:flex md:flex-wrap">
         <div className="card w-full pb-5 md:w-2/6">
           <div className={`${filterData[filterItem].projectOne.class} card-img-1 w-full h-52 mb-5 bg-green-300`}></div>
           <p className="text-bold text-light text-sm font-bold mb-2">

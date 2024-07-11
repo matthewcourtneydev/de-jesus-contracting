@@ -12,14 +12,14 @@ const Testimonials = (props) => {
           className="w-1/6 max-w-28 h-3/4 mt-4 ml-20  xl:ml-52"
         />
       </div>
-      <section className="top-section md:flex md:flex-wrap p-5 pt-20 md:pt-8 md:pb-12 md:pl-20 md:pr-20 text-light">
+      <section className="top-section md:flex md:flex-wrap p-5 pt-20 md:pt-8 md:pb-12 md:pl-20 md:pr-20 xl:pl-52 xl:pr-52 text-light">
         <h2 className="sub-header mb-5 md:mb-0 text-5xl leading-10 md:leading-10 md:text-light md:mt-2 md:text-5xl flex flex-col md:w-3/6">
           <span className="md:mt-0 text-light">
             {props.isSpanish ? "TESTIMONIOS" : "TESTIMONIALS"}
           </span>
         </h2>
       </section>
-      <section className="review-container md:pt-0 text-light w-full p-5 md:pl-20 md:pr-20">
+      <section className="review-container md:pt-0 text-light w-full p-5 md:pl-20 xl:pl-52 xl:pr-52 md:pr-20">
         <div className="review-1 pb-2 md:flex md:flex-wrap">
           <div className="img-review-1 md:w-1/2 w-full h-48 bg-yellow-300"></div>
           <div className="text-container md:w-1/2 md:p-5 md:pt-0">
