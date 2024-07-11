@@ -1,5 +1,6 @@
 import React from "react";
 import "./navbar-sm.css";
+import ToggleLang from "../toggleLang/toggleLang";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 
@@ -16,7 +17,8 @@ const NavbarSm = (props) => {
           <RxHamburgerMenu className="mr-2 text-bold text-light text-base" /> MENU
         </span>
       )}
-      <span className="nav-right">
+      <span className="nav-right flex flex-row gap-5 items-center">
+      <ToggleLang isSpanish={props.isSpanish} setSpanish={props.setSpanish} />
         <button
           onClick={() => props.navigateTo("/estimates")}
           className="get-started sans-font text-light text-xs border p-2 border-solid border-white"

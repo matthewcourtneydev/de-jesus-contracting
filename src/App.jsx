@@ -32,7 +32,7 @@ function App() {
   }, [currentPage])
   return (
     <div className="App">
-      <NavbarSm navigateTo={navigateTo} isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
+      <NavbarSm navigateTo={navigateTo} isSpanish={isSpanish} setSpanish={setSpanish} isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
       <NavbarLg navigateTo={navigateTo} isSpanish={isSpanish} setSpanish={setSpanish} isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
       <Routes>
         <Route path={"/"} element={<Home isSpanish={isSpanish} navigateTo={navigateTo} />} />
