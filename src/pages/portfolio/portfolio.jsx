@@ -415,7 +415,7 @@ const Portfolio = (props) => {
         <div className="card w-full pb-5 mt-10 md:mt-0 md:w-2/6">
             <p className="w-1/2 md:w-full text-xs">{props.isSpanish ? filterDataEs[filterItem].message : filterData[filterItem].message}</p>
             <button className="get-started pt-2 pb-2 pl-5 pr-5 mt-5 border-white border" onClick={() => props.navigateTo("/estimates")}>
-            GET STARTED
+            {props.isSpanish ? "EMPEZAR" : "GET STARTED"}
           </button>
         </div>
         
