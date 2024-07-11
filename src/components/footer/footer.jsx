@@ -30,8 +30,8 @@ const Footer = (props) => {
   }
 
   return (
-    <footer className="bg-blue relative m-h-200 pb-20 md:pb-10 gap-5 flex flex-col pl-5 pr-5 md:pl-20 md:pr-20 md:pt-5 md:text-xs lg:pl-28 lg:pr-28">
-      <section className="upper pt-5 w-full justify-between flex flex-col md:flex-row">
+    <footer className="bg-blue relative m-h-200 pb-20 md:pb-10 gap-5 flex flex-col pl-5 pr-5 md:pl-20 md:pr-20 md:pt-5 md:text-xs lg:pl-28 lg:pr-28 xl:pl-0 xl:pr-0">
+      <section className="upper pt-5 w-full justify-between flex flex-col md:flex-row xl:pl-52 xl:pr-52">
         <section className="footer-section w-1/3 md:max-w-20 h-full mb-2">
           <img src={logo} alt="" className="w-full" />
         </section>

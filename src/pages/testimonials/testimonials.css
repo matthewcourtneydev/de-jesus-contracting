@@ -1,3 +1,18 @@
 .review-container {
     background-color: #273043;
 }
+
+
+.img-review-1 {
+    background-image: url("../../imgs/bathroom.webp");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.img-review-2 {
+    background-image: url("../../imgs/interior.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}

@@ -6,6 +6,13 @@
     background-size: cover;
 }
 
+.second-section-img-back {
+    background-image: url("../../imgs/backyard-resto.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
 
 .remodel-img-by {
     background-image: url("../../imgs/backyard-page-2.jpeg");

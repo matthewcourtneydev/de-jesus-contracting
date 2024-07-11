@@ -158,6 +158,159 @@ const Portfolio = (props) => {
     },
   ];
 
+  const filterDataEs = [
+    {
+      titleOne: "PROYECTOS DE",
+      titleTwo: "INTERIORES",
+    message: "¿Estás pensando en el interior de tus sueños? ¡Podemos ayudarte a verlo cobrar vida!",
+      projectOne: {
+        class: "interior-one",
+        city: "Rock Hill",
+        state: "South Carolina",
+      },
+      projectTwo: {
+        class: "interior-two",
+        city: "Charlotte",
+        state: "North Carolina",
+      },
+      projectThree: {
+        class: "interior-three",
+        city: "Fort Mill",
+        state: "South Carolina",
+      },
+      projectFour: {
+        class: "interior-four",
+        city: "Rock Hill",
+        state: "South Carolina",
+      },
+      projectFive: {
+        class: "interior-five",
+        city: "Charlotte",
+        state: "North Carolina",
+      }
+    },
+    {
+      titleOne: "EXTERIOR",
+      titleTwo: "PROYECTOS",
+      message: "Get the curb apeal you alwyas wanted! Reach out today!",
+      projectOne: {
+        class: "exterior-one",
+        city: "Rock Hill",
+        state: "South Carolina",
+      },
+      projectTwo: {
+        class: "exterior-two",
+        city: "Charlotte",
+        state: "North Carolina",
+      },
+      projectThree: {
+        class: "exterior-three",
+        city: "Fort Mill",
+        state: "South Carolina",
+      },
+      projectFour: {
+        class: "exterior-four",
+        city: "Rock Hill",
+        state: "South Carolina",
+      },
+      projectFive: {
+        class: "exterior-five",
+        city: "Charlotte",
+        state: "North Carolina",
+      }
+    },
+    {
+      titleOne: "PATIO/DECK",
+      titleTwo: "PATIO Y DECK",
+      message: "Enjoy your morning coffee in style. Reach out so we can make it happen!",
+      projectOne: {
+        class: "patio-one",
+        city: "Rock Hill",
+        state: "South Carolina",
+      },
+      projectTwo: {
+        class: "patio-two",
+        city: "Charlotte",
+        state: "North Carolina",
+      },
+      projectThree: {
+        class: "patio-three",
+        city: "Fort Mill",
+        state: "South Carolina",
+      },
+      projectFour: {
+        class: "patio-four",
+        city: "Rock Hill",
+        state: "South Carolina",
+      },
+      projectFive: {
+        class: "patio-five",
+        city: "Charlotte",
+        state: "North Carolina",
+      }
+    },
+    {
+      titleOne: "BACKYARD",
+      titleTwo: "PATIO TRASERO",
+      message: "Make your backyard a santuary today. Reach out now!",
+      projectOne: {
+        class: "backyard-one",
+        city: "Rock Hill",
+        state: "South Carolina",
+      },
+      projectTwo: {
+        class: "backyard-two",
+        city: "Charlotte",
+        state: "North Carolina",
+      },
+      projectThree: {
+        class: "backyard-three",
+        city: "Fort Mill",
+        state: "South Carolina",
+      },
+      projectFour: {
+        class: "backyard-four",
+        city: "Rock Hill",
+        state: "South Carolina",
+      },
+      projectFive: {
+        class: "backyard-five",
+        city: "Charlotte",
+        state: "North Carolina",
+      }
+    },
+    {
+      titleOne: "FENCING",
+      titleTwo: "CERCADO",
+      message: "Let the dogs out with no worries. Our fencing specialists are here to help",
+      projectOne: {
+        class: "fencing-one",
+        city: "Rock Hill",
+        state: "South Carolina",
+      },
+      projectTwo: {
+        class: "fencing-two",
+        city: "Charlotte",
+        state: "North Carolina",
+      },
+      projectThree: {
+        class: "fencing-three",
+        city: "Fort Mill",
+        state: "South Carolina",
+      },
+      projectFour: {
+        class: "fencing-four",
+        city: "Rock Hill",
+        state: "South Carolina",
+      },
+      projectFive: {
+        class: "fencing-five",
+        city: "Charlotte",
+        state: "North Carolina",
+      }
+    },
+  ];
+
   function handleFilter(id) {
     setFilterItem((prev) => id)
   }
@@ -180,30 +333,31 @@ const Portfolio = (props) => {
           <li onClick={() => handleFilter(0)} className="flex flex-col w-fit p-5  pt-0 text-center">
             <span className="top-filter interior rounded-full mb-2 aspect-square w-20 h-20"></span>
             <span className="bottom-filter text-light w-20 text-xs">
-              INTERIOR PROJECTS
+              {props.isSpanish ? "PROYECTOS DE INTERIORES" : "INTERIOR PROJECTS"}
             </span>
           </li>
           <li onClick={() => handleFilter(1)} className="flex flex-col w-fit p-5 pt-0 text-center">
             <span className="top-filter exterior rounded-full mb-2 aspect-square w-20 h-20"></span>
             <span className="bottom-filter text-light w-20 text-xs">
-              EXTERIOR PROJECTS
+            {props.isSpanish ? "PROYECTOS EXTERIORES" : "EXTERIOR PROJECTS"}
             </span>
           </li>
           <li onClick={() => handleFilter(2)} className="flex flex-col w-fit p-5 pt-0 text-center">
             <span className="top-filter patios rounded-full mb-2 aspect-square w-20 h-20"></span>
             <span className="bottom-filter text-light w-20 text-xs">
-              PATIO/DECK PROJECTS
+            {props.isSpanish ? "PROYECTOS DE PATIO Y DECK" : "PATIO/DECK PROJECTS"}
             </span>
           </li>
           <li onClick={() => handleFilter(3)} className="flex flex-col w-fit p-5 pt-0 text-center">
             <span className="top-filter backyard rounded-full mb-2 aspect-square w-20 h-20"></span>
             <span className="bottom-filter text-light w-20 text-xs">
-              BACKYARD PROJECTS
+            {props.isSpanish ? "PROYECTOS DE PATIO TRASERO" : "BACKYARD PROJECTS"}
             </span>
           </li>
           <li onClick={() => handleFilter(4)} className="flex flex-col w-fit p-5 pt-0 text-center">
             <span className="top-filter fencing rounded-full mb-2 aspect-square w-20 h-20"></span>
-            <span className="bottom-filter text-light w-20 text-xs">FENCING PROJECTS</span>
+            <span className="bottom-filter text-light w-20 text-xs">
+            {props.isSpanish ? "PROYECTOS DE CERCADO" : "FENCING PROJECTS"}</span>
           </li>
         </ul>
       </section>
@@ -211,7 +365,7 @@ const Portfolio = (props) => {
         <div className="card w-full pb-5 md:w-2/6">
           <div className={`${filterData[filterItem].projectOne.class} card-img-1 w-full h-52 mb-5 bg-green-300`}></div>
           <p className="text-bold text-light text-sm font-bold mb-2">
-            {filterData[filterItem].titleOne} PROJECT
+                       {props.isSpanish ? "PROYECTO DE" : filterData[filterItem].titleOne} {props.isSpanish ? filterDataEs[filterItem].titleTwo : "PROJECT"}
           </p>
           <p className="text-2xl text-light md:text-base font-thin w-1/2">
             {filterData[filterItem].projectOne.city},
@@ -221,7 +375,7 @@ const Portfolio = (props) => {
         <div className="card w-full pb-5 md:p-10 md:pt-20 md:w-4/6">
           <div className={`${filterData[filterItem].projectTwo.class} md:h-80 card-img-1 w-full h-52 mb-5 bg-green-300`}></div>
           <p className="text-bold text-light text-sm font-bold mb-2">
-            {filterData[filterItem].titleOne} PROJECT
+                       {props.isSpanish ? "PROYECTO DE" : filterData[filterItem].titleOne} {props.isSpanish ? filterDataEs[filterItem].titleTwo : "PROJECT"}
           </p>
           <p className="text-2xl text-light md:text-base font-thin w-1/2">
             {filterData[filterItem].projectTwo.city},
@@ -231,7 +385,7 @@ const Portfolio = (props) => {
         <div className="card w-full pb-5 md:w-4/5 md:m-auto md:mt-10">
           <div className={`${filterData[filterItem].projectThree.class} md:h-80 card-img-1 w-full h-52 mb-5 bg-green-300`}></div>
           <p className="text-bold text-light text-sm font-bold mb-2">
-            {filterData[filterItem].titleOne} PROJECT
+            {props.isSpanish ? "PROYECTO DE" : filterData[filterItem].titleOne} {props.isSpanish ? filterDataEs[filterItem].titleTwo : "PROJECT"}
           </p>
           <p className="text-2xl text-light md:text-base font-thin w-1/2">
             {filterData[filterItem].projectThree.city},
@@ -241,7 +395,7 @@ const Portfolio = (props) => {
         <div className="card w-full pb-5 md:mt-10 md:w-2/6">
           <div className={`${filterData[filterItem].projectFour.class} card-img-1 w-full h-52 mb-5 bg-green-300`}></div>
           <p className="text-bold text-light text-sm font-bold mb-2">
-            {filterData[filterItem].titleOne} PROJECT
+                       {props.isSpanish ? "PROYECTO DE" : filterData[filterItem].titleOne} {props.isSpanish ? filterDataEs[filterItem].titleTwo : "PROJECT"}
           </p>
           <p className="text-2xl text-light md:text-base font-thin w-1/2">
             {filterData[filterItem].projectFour.city},
@@ -251,7 +405,7 @@ const Portfolio = (props) => {
         <div className="card w-full pb-5 md:p-10 md:pt-20 md:w-4/6">
           <div className={`${filterData[filterItem].projectFive.class} md:h-80 card-img-1 w-full h-52 mb-5 bg-green-300`}></div>
           <p className="text-bold text-light text-sm font-bold mb-2">
-            {filterData[filterItem].titleOne} PROJECT
+                       {props.isSpanish ? "PROYECTO DE" : filterData[filterItem].titleOne} {props.isSpanish ? filterDataEs[filterItem].titleTwo : "PROJECT"}
           </p>
           <p className="text-2xl text-light md:text-base font-thin w-1/2">
             {filterData[filterItem].projectFive.city},
@@ -259,7 +413,7 @@ const Portfolio = (props) => {
           </p>
         </div>
         <div className="card w-full pb-5 mt-10 md:mt-0 md:w-2/6">
-            <p className="w-1/2 md:w-full text-xs">{filterData[filterItem].message}</p>
+            <p className="w-1/2 md:w-full text-xs">{props.isSpanish ? filterDataEs[filterItem].message : filterData[filterItem].message}</p>
             <button className="get-started pt-2 pb-2 pl-5 pr-5 mt-5 border-white border" onClick={() => props.navigateTo("/estimates")}>
             GET STARTED
           </button>

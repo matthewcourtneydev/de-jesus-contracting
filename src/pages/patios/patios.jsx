@@ -62,7 +62,7 @@ const Patios = (props) => {
             <span>{props.isSpanish ? "CREA UN ESPACIO " : "CREATE A SPACE"}</span>
             <span className="md:ml-14 text-dark mt-1 md:mt-2">{props.isSpanish ? "SOLO PARA TI" : "JUST FOR YOU!"}</span>
           </h2>
-          <div className="second-section-img w-full  h-60 mt-5 bg-slate-100"></div>
+          <div className="second-section-img-patio w-full  h-60 mt-5 bg-slate-100"></div>
         </div>
         <div className="container md:order-0 md:w-1/2">
           <div className="card  min-h-fit w-full pt-5 pb-5 mt-10 gap-3 flex md:items-start items-center md:flex-row md:flex-nowrap flex-wrap bg-white">

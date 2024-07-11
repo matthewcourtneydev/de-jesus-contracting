@@ -1,6 +1,6 @@
 import { Route, Routes, useNavigate } from "react-router-dom";
 import "./App.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import NavbarSm from "./components/navbar-sm/navbar-sm";
 import NavbarLg from "./components/navbar-lg/navbar-lg";
 import Home from "./pages/home/home";
@@ -26,6 +26,10 @@ function App() {
     navigate(route);
 
   }
+
+  useEffect(() => {
+
+  }, [currentPage])
   return (
     <div className="App">
       <NavbarSm navigateTo={navigateTo} isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
@@ -37,10 +41,10 @@ function App() {
         <Route path={"/interior"} element={<Interior isSpanish={isSpanish} navigateTo={navigateTo} />} />
         <Route path={"/exterior"} element={<Exterior isSpanish={isSpanish} navigateTo={navigateTo} />} />
         <Route path={"/patios"} element={<Patios isSpanish={isSpanish} navigateTo={navigateTo} />} />
-        <Route path={"/backyard"} element={<Backyard navigateTo={navigateTo} />} />
-        <Route path={"/fencing"} element={<Fencing navigateTo={navigateTo} />} />
-        <Route path={"/portfolio"} element={<Portfolio navigateTo={navigateTo}/>} />
-        <Route path={"/testimonials"} element={<Testimonials navigateTo={navigateTo}/>} />
+        <Route path={"/backyard"} element={<Backyard isSpanish={isSpanish}  navigateTo={navigateTo} />} />
+        <Route path={"/fencing"} element={<Fencing isSpanish={isSpanish} navigateTo={navigateTo} />} />
+        <Route path={"/portfolio"} element={<Portfolio isSpanish={isSpanish} navigateTo={navigateTo}/>} />
+        <Route path={"/testimonials"} element={<Testimonials isSpanish={isSpanish} navigateTo={navigateTo}/>} />
       </Routes>
       <Footer isSpanish={isSpanish} navigateTo={navigateTo}/>
       <NavMenu isSpanish={isSpanish} currentPage={currentPage} isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} navigateTo={navigateTo} />

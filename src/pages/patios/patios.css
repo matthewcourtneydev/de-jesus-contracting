@@ -6,6 +6,12 @@
     background-size: cover;
 }
 
+.second-section-img-patio {
+    background-image: url("../../imgs/patio-page-2-img.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .remodel-img-patio {
     max-width: 100%;

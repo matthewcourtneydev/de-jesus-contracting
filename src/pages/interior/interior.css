@@ -9,3 +9,10 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.second-section-img-fence {
+    background-image: url("../../imgs/fence-page-2.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
