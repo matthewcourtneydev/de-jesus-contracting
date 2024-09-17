@@ -37,7 +37,7 @@ function App() {
       <Routes>
         <Route path={"/"} element={<Home isSpanish={isSpanish} navigateTo={navigateTo} />} />
         <Route path={"/estimates"} element={<Estimates />} />
-        <Route path={"/about"} element={<About navigateTo={navigateTo}/>} />
+        <Route path={"/about"} element={<About  isSpanish={isSpanish} navigateTo={navigateTo}/>} />
         <Route path={"/interior"} element={<Interior isSpanish={isSpanish} navigateTo={navigateTo} />} />
         <Route path={"/exterior"} element={<Exterior isSpanish={isSpanish} navigateTo={navigateTo} />} />
         <Route path={"/patios"} element={<Patios isSpanish={isSpanish} navigateTo={navigateTo} />} />

@@ -14,8 +14,8 @@ const Footer = (props) => {
   function handleSubmit(e) {
     e.preventDefault();
     emailjs
-      .sendForm("service_8dlalvd", "template_7h3bqli", form.current, {
-        publicKey: "aPDvLUxmq4l6nCZmW",
+      .sendForm("service_pl8rq8k", "template_srrm3fc", form.current, {
+        publicKey: "TF-CPrhDGAzek_vbr",
       })
       .then(
         () => {
@@ -85,7 +85,7 @@ const Footer = (props) => {
                 <input
                   type="text"
                   id="name"
-                  name="first"
+                  name="name"
                   placeholder={props.isSpanish ? "Nombre" : "Name"}
                   className="w-full mb-7 bg-transparent border-b-white border-b pb-2 text-light"
                 />

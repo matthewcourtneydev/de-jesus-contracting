@@ -23,7 +23,7 @@ const NavbarSm = (props) => {
           onClick={() => props.navigateTo("/estimates")}
           className="get-started sans-font text-light text-xs border p-2 border-solid border-white"
         >
-          START MY PROJECT
+          {props.isSpanish ? "INICIAR MI PROYECTO" : "START MY PROJECT"}
         </button>
       </span>
     </nav>

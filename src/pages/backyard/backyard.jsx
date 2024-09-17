@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect, useRef } from "react";
 import "./backyard.css";
 import logo from "../../imgs/logo.png";
 
@@ -7,8 +7,14 @@ import { IoWaterSharp } from "react-icons/io5";
 import { GiStoneBlock } from "react-icons/gi";
 
 const Backyard = (props) => {
+  const topElement = useRef(null)
+  useEffect(() => {
+    console.log("page hit");
+    topElement.current.scrollIntoView()
+  }, [])
   return (
     <div className="page" id="about-page">
+            <div className="focus" ref={topElement}></div>
       <div className="med-header-interior w-screen hidden md:flex min-h-24">
         <img
           src={logo}

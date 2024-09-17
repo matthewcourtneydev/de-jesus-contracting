@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect, useRef } from "react";
 import "./exterior.css";
 import logo from "../../imgs/logo.png";
 
@@ -11,14 +11,20 @@ import { PiHouse, PiSolarRoof } from "react-icons/pi";
 
 
 const Exterior = (props) => {
+  const topElement = useRef(null)
+useEffect(() => {
+  console.log("page hit");
+  topElement.current.scrollIntoView()
+}, [])
   return (
     <div className="page" id="about-page">
+            <div className="focus" ref={topElement}></div>
       <div className="med-header-interior w-screen hidden md:flex min-h-24">
         <img src={logo} alt="" className="w-1/6 max-w-28 h-3/4 mt-4 ml-20 xl:ml-52" />
       </div>
       <section className="top-section md:flex md:flex-wrap p-5 pt-20 md:pt-8 md:pb-12 md:pl-20 xl:pl-52 xl:pr-52 md:pr-20 text-light">
         <h2 className="sub-header mb-5 text-5xl leading-10 md:leading-10 md:text-light md:mt-2 md:text-5xl flex flex-col md:md:order-0 md:w-3/6 w-full">
-          <span className="md:mt-0 text-light">{props.isSpanish ? "SERVICIOS" : "EXTERIOR"} </span>
+          <span className="md:mt-0 text-light scroll">{props.isSpanish ? "SERVICIOS" : "EXTERIOR"} </span>
           <span className="mt-2 md:mt-2 text-light">{props.isSpanish ? "EXTERIORES" : "SERVICES"}</span>
         </h2>
         <div className="top-section-img-ex md:mb-20 md:mt-12 w-full h-60 md:order-3 bg-slate-100"></div>
@@ -118,11 +124,11 @@ const Exterior = (props) => {
             <MdOutlineWindow  className="m-auto mt-5 lg:mt-4 text-light" />
           </div>
           <h4 className="w-3/5 ml-2 sans-font sm:hidden font-bold md:ml-0 md:text-sm md:mb-1 text-lg">
-            {props.isSpanish ? "SERVICIOS" : "Ventanas"}
+            {props.isSpanish ? "Ventanas" : "Windows"}
           </h4>
           <div className="wrapper md:w-4/5">
             <h4 className="w-3/5 ml-2 sans-font hidden sm:inline font-bold md:ml-0 md:text-sm md:mb-1 text-lg">
-              {props.isSpanish ? "SERVICIOS" : "Ventanas"}
+              {props.isSpanish ? "Ventanas" : "Windows"}
             </h4>
             <p className="w-full lg:text-xs md:text-xxs sans-font font-light md:w-4/5">
             {props.isSpanish ? "Las ventanas necesitan ser reemplazadas para mejorar la eficiencia energética, mejorar el aislamiento y mejorar la apariencia y funcionalidad general de su hogar." : "Windows need replacement to enhance energy efficiency, improve insulation, and upgrade the overall appearance and functionality of your home."}

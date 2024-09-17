@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useEffect, useRef, useState } from "react";
 import "./home.css";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
@@ -47,8 +47,16 @@ const Home = (props) => {
     }
   }
 
+  const topElement = useRef(null)
+  useEffect(() => {
+    console.log("page hit");
+    topElement.current.scrollIntoView()
+  }, [])
+
+
   return (
     <div className="page md:text-xs" id="home">
+      <div className="focus" ref={topElement}></div>
       <header className="flex flex-col-reverse md:flex-row ">
         <section className="left w-full h-full md:w-1/2"></section>
         <section className="right pb-9 pt-20 lg:pt-28 pl-5 pr-5 w-full h-full md:w-1/2 lg:pr-24 xl:pr-52 min-h-100%">

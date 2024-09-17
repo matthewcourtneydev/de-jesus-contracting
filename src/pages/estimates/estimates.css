@@ -9,3 +9,11 @@
     background-size: cover;
     background-repeat: none;
 }
+
+input {
+    font-weight: light;
+}
+
+.estimates-submit {
+    background-color: #7c877a;
+}

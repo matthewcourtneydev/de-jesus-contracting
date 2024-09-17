@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useEffect, useRef, useState } from "react";
 import "./portfolio.css";
 import logo from "../../imgs/logo.png";
 
@@ -315,8 +315,16 @@ const Portfolio = (props) => {
     setFilterItem((prev) => id)
   }
 
+  const topElement = useRef(null)
+  useEffect(() => {
+    console.log("page hit");
+    topElement.current.scrollIntoView()
+  }, [])
+
+
   return (
     <div className="page" id="portfolio-page">
+            <div className="focus" ref={topElement}></div>
       <div className="med-header-interior w-screen hidden md:flex min-h-24">
         <img src={logo} alt="" className="w-1/6 max-w-28 h-3/4 mt-4 ml-20 xl:ml-52" />
       </div>
